@@ -12,7 +12,7 @@ export default function Home() {
         <div className="header">
           <br/>
           <div className="connect">
-            <ConnectWallet btnTitle="Connect" />
+            {/* <ConnectWallet btnTitle="Connect" /> */}
           </div>
         </div>
         {/* <div className="connect">
@@ -36,7 +36,7 @@ export default function Home() {
         <p className="description">
           You can also add Metamask with <code className="code">{"addAdmin()"}</code> as another admin to your smart wallet
           </p> */}
-        <AddMetamask />
+        {/* <AddMetamask /> */}
         <hr className="divider" />
       </div>
     </main>
