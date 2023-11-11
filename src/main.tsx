@@ -21,7 +21,7 @@ export const smartWalletConfig = smartWallet(localWallet(), {
 
 export const editionDropAddress = "0x2a444530FDe90d819d03D58AE19665F708Fba1d6";
 export const editionDropTokenId = "0";
-export const secondNFTTokenId = "1";
+export const secondNFTTokenId = "2";
 
 const container = document.getElementById("root");
 const root = createRoot(container!);

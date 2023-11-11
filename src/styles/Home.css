@@ -182,3 +182,32 @@
 .logo img {
   filter: invert(1);
 }
+
+.main {
+  /* Your main styles for the main element here */
+}
+
+.container {
+  /* Your styles for the container element here */
+}
+
+.header {
+  /* Your styles for the header element here */
+}
+
+.description {
+  /* Your styles for the description paragraphs here */
+}
+
+.content-container {
+  display: flex; /* Use flexbox to align children horizontally */
+}
+
+.left-content {
+  flex: 1; /* Allow the left content to expand and take available space */
+}
+
+.right-content {
+  flex: 1; /* Allow the right content to expand and take available space */
+  padding-left: 20px; /* Add some spacing between the left and right content */
+}
