@@ -244,6 +244,10 @@ export const NFTComponent = () => {
                 style={{ width: "100%", marginTop: "10px" }}
               />
               <Web3Button
+                connectWallet={{
+                  btnTitle: "Create Account",
+                  modalTitle: "Login",
+                }}
                 contractAddress={editionDropAddress}
                 action={(contract) =>
                   contract.erc1155.claim(editionDropTokenId, 1)
@@ -273,7 +277,7 @@ export const NFTComponent = () => {
             marginTop: "10px",
           }}
         >
-          Mint the first NFT before claiming the second one.
+          Create a free account to claim this NFT!
         </p>
       )}
 
